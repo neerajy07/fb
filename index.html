@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up </title>
+    <link rel="stylesheet" href="fb.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="login-page">
+        <container class="login-container">
+            <div class="content-part">
+                <img class="fb_img" src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+                <h2>Facebook hepls you connect and share with the people in your life.</h2>
+            </div>
+            <div class="form-part">
+                <form action="#" class="form-box">
+                    <div class="input-box">
+                        <input type="emil" placeholder="Email address or phone number" required>
+                        <input type="password" placeholder="Password" required>
+
+                    </div>
+                    <button class="login-btn"><b>Log in</b></button>
+                    <a href="#" class="forget-pwd">Forgotten password?</a>
+                    <div class="devider">
+                    </div>
+                    <button class="signup-btn">Create new account</button>
+                </form>
+            </div>
+        </container>
+        <!--signup page-->
+        <container class="signup-pop">
+            <div class="all-item">
+
+                <div class="pop-header">
+                    <i class='bx bx-x' id="close"></i>
+                    <h2>Sign Up</h2>
+                    <span>It's quick and easy.</span>   
+                </div>
+                <form action="#" class="pop-form">
+                    <div class="input-s-box flex">
+                        <input type="text"placeholder="First name" required>
+                        <input type="text"placeholder="Surname" required>
+                    </div>
+
+                    <div class="input-s-box ">
+                        <input type="email"placeholder=" Mobile number or email address" required>
+                    </div>
+                        <div class="input-s-box ">
+                            <input type="password"placeholder=" New password" required>
+                        </div>
+                        <div class="date">Date of birth<i class='bx bx-question-mark'></i></div>
+                        <div class="input-s-box flex">
+                            <select id="select-date">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <select id="select-date">
+                                <option value="jan">jan</option>
+                                <option value="feb">Feb</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="may">may</option>
+                                <option value="june">june</option>
+                                <option value="july">july</option>
+                                <option value="August">August</option>
+                                <option value="sept">sept</option>
+                                <option value="oct">oct</option>
+                                <option value="nov">nov</option>
+                                <option value="Dec">Dec</option>
+                            </select>
+                            <select id="select-date">
+                                <option value="2001">2001</option>
+                                <option value="2002">2002</option>
+                                <option value="2003">2003</option>
+                                <option value="2004">2004</option>
+                                <option value="2005">2005</option>
+                                <option value="2006">2006</option>
+                                <option value="2007">2007</option>
+                                <option value="2008">2008</option>
+                                <option value="2009">2009</option>
+                                <option value="2010">2010</option>
+                                <option value="2011">2011</option>
+                                <option value="2012">2012</option>
+                            </select>
+                        </div>
+                        <div class="gd">Gender<i class='bx bx-question-mark'></i> </div>
+                        <div class="input-s-box flex">
+                           
+                            <span>
+                                <input type="radio" id="female" value="female" class="gender" name="gender">
+                                <label for="female">Female</label>
+                            </span>
+                            <span>
+                                <input type="radio" id="male" value="male" class="gender" name="gender">
+                                <label for="male">Male</label>
+                            </span>
+                            <span>
+                                <input type="radio" id="custom" value="custom" class="gender" name="gender">
+                                <label for="male">Custom</label>
+                            </span>
+                        </div>
+                        <div class="terms">
+                            <p>people who use your servces may have uploaded your contact information to facebook. <a href="">Learn more.</a> <br><br>
+
+
+                        By clicking sign up, you agree to our ours <a href="">terms</a> <a href="">privacy policy </a>and <a href="">cookies policy.</a> You may receive sms notification fro us and can opt out at any time.</p>
+                        </div>
+                        <button class="sign-btn">Sign Up</button>
+                        </form>
+                        
+                        </div>
+           
+           
+        </container>
+    </section>
+    <script src="fb.js"></script>
+</body>
+</html>
